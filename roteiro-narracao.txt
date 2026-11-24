@@ -1,0 +1,155 @@
+Revisão — Tópicos em Contabilidade II
+DFC · DVA · Notas Explicativas
+Roteiro de narração — duração total 8:49
+
+CENA 1 — ABERTURA  [0:00]
+    [0:00] Bom dia! Vamos revisar para a prova, com calma.
+    [0:04] Comece guardando esta frase: lucro não é caixa.
+    [0:07] A Cia Exemplo teve lucro de 3.900.
+    [0:11] Mas a operação consumiu 1.800 de caixa.
+    [0:14] Hoje vamos ver três temas.
+    [0:16] A DFC, a DVA e as Notas Explicativas.
+
+CENA 2 — O FUNIL DO CAIXA  [0:20]
+    [0:21] Primeiro: o que conta como caixa na DFC?
+    [0:24] Caixa e equivalentes de caixa. Pense num funil com três filtros.
+    [0:28] Filtro um: sem variação relevante de valor.
+    [0:31] Filtro dois: alta liquidez. Vira dinheiro rápido.
+    [0:34] Filtro três: prazo inferior a 3 meses.
+    [0:37] Passou nos três? Então é equivalente de caixa.
+    [0:40] E quem fica de fora? Fundos de ações e fundos cambiais.
+    [0:44] O valor deles oscila. Eles param no primeiro filtro.
+    [0:48] Agora, uma pegadinha clássica.
+    [0:50] Tirei dinheiro do banco e apliquei num equivalente de caixa. Isso é fluxo?
+    [0:55] Não! O dinheiro só trocou de gaveta, dentro da mesma caixa.
+  ⏸ [0:59] Pause e responda: um fundo cambial é equivalente de caixa?
+        (pausa para pensar)
+  ✔ [1:06] Não. O valor dele oscila muito. Fica fora do funil.
+
+CENA 3 — OS 3 CANOS  [1:10]
+    [1:11] Agora: por onde o caixa entra e sai?
+    [1:13] Imagine três canos ligados ao caixa da empresa.
+    [1:17] Primeiro cano: operacional. É o dia a dia do negócio.
+    [1:20] Receber de clientes. Pagar fornecedores. Pagar salários.
+    [1:24] Segundo cano: investimento. São os ativos de longo prazo.
+    [1:28] Comprar uma máquina. Vender um imóvel. Comprar participação em outra empresa.
+    [1:33] Terceiro cano: financiamento. É o dinheiro de sócios e credores.
+    [1:37] Aporte dos sócios. Empréstimo recebido. Pagamento do principal.
+    [1:42] Agora, atenção ao item 12.
+    [1:44] A parcela do empréstimo se divide em duas.
+    [1:47] Os juros podem ir para a operacional. O principal vai para financiamento.
+    [1:52] E na compra financiada? Só entra a parte paga em dinheiro.
+    [1:56] A parte financiada não passou pelo caixa. Fica fora da DFC.
+  ⏸ [2:00] Pause e responda: pagar o principal de um empréstimo entra em qual cano?
+        (pausa para pensar)
+  ✔ [2:08] Financiamento. Os juros é que podem ir para a operacional.
+
+CENA 4 — JUROS E DIVIDENDOS  [2:13]
+    [2:14] Juros e dividendos confundem muita gente. Vamos organizar.
+    [2:18] A norma encoraja um caminho e aceita uma alternativa.
+    [2:21] Juros pagos: operacional. Alternativa: financiamento.
+    [2:25] Juros recebidos: operacional. Alternativa: investimento.
+    [2:29] Dividendos recebidos: operacional. Alternativa: investimento.
+    [2:33] Já os dividendos pagos: financiamento. Alternativa: operacional.
+    [2:38] E o IR e a CSLL? Em regra, na operacional.
+  ⏸ [2:42] Pause e responda: na forma encorajada, onde entram os dividendos pagos?
+        (pausa para pensar)
+  ✔ [2:51] Financiamento. É o único da tabela que fica fora da operacional.
+
+CENA 5 — DIRETO X INDIRETO  [2:56]
+    [2:57] O caixa operacional pode ser apresentado por dois métodos.
+    [3:01] Mesmo destino, dois caminhos.
+    [3:03] O método direto mostra os recebimentos e pagamentos brutos.
+    [3:07] Quanto entrou de clientes. Quanto saiu para fornecedores e empregados.
+    [3:12] O método indireto é uma cascata.
+    [3:14] Começa no lucro líquido.
+    [3:16] Depois, soma os itens sem efeito caixa, como a depreciação.
+    [3:20] Ajusta as variações do capital de giro.
+    [3:23] E chega no mesmo caixa operacional do método direto.
+    [3:27] Agora, a regra que mais cai.
+    [3:29] Aumento de ativo tira caixa.
+    [3:31] Clientes a receber subiu? Você vendeu, mas não recebeu.
+    [3:35] Aumento de passivo põe caixa.
+    [3:37] Fornecedores a pagar subiu? Você comprou, mas ainda não pagou.
+    [3:41] E o inverso também vale. Ativo caindo põe caixa. Passivo caindo tira.
+    [3:46] No Brasil, quem usa o método direto também apresenta a conciliação do lucro com o caixa operacional.
+    [3:52] Está no item 20A.
+  ⏸ [3:54] Pause e responda: os estoques aumentaram. No método indireto, você soma ou subtrai?
+        (pausa para pensar)
+  ✔ [4:04] Subtrai. Estoque é ativo. Aumento de ativo tira caixa.
+
+CENA 6 — CIA EXEMPLO EM 60 SEGUNDOS  [4:09]
+    [4:09] Agora, a DFC da Cia Exemplo, em 60 segundos.
+    [4:13] Operacional: −1.800.
+    [4:16] Investimento: −5.000.
+    [4:18] Financiamento: +18.500.
+    [4:21] Somando tudo, o caixa aumentou 11.700.
+    [4:25] Parece ótimo, certo? Calma. Olhe a origem.
+    [4:28] A empresa lucrou, mas a operação consumiu caixa.
+    [4:32] O dinheiro veio dos sócios e de empréstimos.
+    [4:34] Foi ele que pagou os investimentos e cobriu a operação.
+  ⏸ [4:38] Pause e responda: você emprestaria dinheiro para essa empresa?
+        (pausa para pensar)
+  ✔ [4:46] Não há resposta única. Mas o alerta é claro.
+  ✔ [4:49] A operação não gera caixa. Hoje, quem paga a conta são os sócios e os credores.
+
+CENA 7 — DVA  [4:55]
+    [4:55] Agora, a DVA: quanta riqueza a empresa gerou, e para quem foi.
+    [5:00] Pense na cadeia do pão.
+    [5:01] O agricultor vende o trigo por 250.
+    [5:05] O moinho faz a farinha e vende por 400. Agregou 150.
+    [5:09] A padaria faz o pão e vende por 1.000. Agregou 600.
+    [5:13] Somar as vendas dá 1.650. Mas conta o trigo várias vezes.
+    [5:18] A riqueza nova é só o que cada um agregou: 1.000. É a lógica do PIB.
+    [5:24] Na empresa, a lógica é a mesma: vendas, menos insumos, mais transferências.
+    [5:29] No modelo da DVA, isso vira um funil de 8 itens.
+    [5:32] Receitas, menos insumos de terceiros: valor adicionado bruto.
+    [5:37] Menos as retenções, como a depreciação: valor adicionado líquido.
+    [5:41] Mais o que veio em transferência. Chegamos ao item 7: o valor adicionado a distribuir.
+    [5:47] O item 8 distribui essa riqueza em 4 baldes.
+    [5:51] Pessoal. Governo. Terceiros, que emprestam dinheiro ou imóveis. E sócios.
+    [5:56] Regra de ouro: item 7 = item 8. Tudo o que foi gerado é distribuído.
+    [6:01] Agora, três pegadinhas.
+    [6:03] Um: receita e insumos entram pelo valor bruto, com os tributos incluídos.
+    [6:08] Dois: o INSS patronal vai para Governo, não para Pessoal.
+    [6:12] Três: aluguel vai para Terceiros. Não é insumo.
+  ⏸ [6:15] Pause e responda: por que a riqueza do pão é 1.000, e não 1.650?
+        (pausa para pensar)
+  ✔ [6:23] Porque só conta o que cada etapa agregou: 250 + 150 + 600 = 1.000.
+
+CENA 8 — NOTAS EXPLICATIVAS  [6:31]
+    [6:31] Último bloco: Notas Explicativas. Ritmo rápido.
+    [6:35] Primeiro: sinal e ruído.
+    [6:36] Nota boa entrega sinal: o que importa para decidir.
+    [6:40] Informação demais, sem relevância, vira ruído.
+    [6:43] O filtro é a materialidade. Se omitir pode mudar a decisão do usuário, é material.
+    [6:48] Isso está na OCPC 07 e no CPC 51.
+    [6:52] Segundo: a ordem das notas. CPC 26, item 114.
+    [6:57] Declaração de conformidade. Resumo das políticas contábeis. Detalhe dos itens, na ordem das demonstrações. E outras divulgações.
+    [7:06] Terceiro: CPC 23, em três caixas.
+    [7:09] Mudou a política contábil? Retrospectiva. Como se sempre tivesse sido assim.
+    [7:14] Mudou a estimativa? Prospectiva. Daqui para a frente.
+    [7:17] Achou um erro? Reapresentação retrospectiva. Corrige o passado.
+    [7:22] Quarto: CPC 24, eventos subsequentes.
+    [7:25] A janela vai da data do balanço até a autorização para emissão.
+    [7:29] A condição já existia na data do balanço? Ajusta.
+    [7:32] A condição é nova, surgiu depois? Não ajusta. Só divulga.
+    [7:36] Quinto: CPC 21. É a base do ITR, trimestral e condensado.
+    [7:41] Sexto: CPC 05, partes relacionadas.
+    [7:44] É parte relacionada: controladora, controlada, coligada e o pessoal-chave da administração.
+    [7:50] Não é, só por isso: um grande cliente ou fornecedor, um banco que financia, ou duas empresas com um administrador em comum.
+  ⏸ [7:58] Pause e responda: achei um erro do ano passado. Corrijo de forma prospectiva?
+        (pausa para pensar)
+  ✔ [8:06] Não. Para erro, a reapresentação é retrospectiva. Prospectiva é para mudança de estimativa.
+
+CENA 9 — FECHAMENTO  [8:13]
+    [8:14] Para fechar, o checklist das 8 pegadinhas.
+    [8:17] Banco para aplicação equivalente de caixa: não é fluxo.
+    [8:21] Fundos de ações e cambiais: fora do caixa.
+    [8:23] Parcela de empréstimo: juros de um lado, principal do outro.
+    [8:27] Compra financiada: só a parte paga em dinheiro.
+    [8:30] Aumento de ativo tira caixa. Aumento de passivo põe.
+    [8:34] Na DVA, receita e insumos vão pelo valor bruto.
+    [8:37] O INSS patronal é Governo. O aluguel é Terceiros.
+    [8:41] Evento subsequente: condição que já existia, ajusta.
+    [8:45] Respira fundo. Você estudou. Boa prova!

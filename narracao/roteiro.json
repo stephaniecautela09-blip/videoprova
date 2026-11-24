@@ -1,0 +1,763 @@
+{
+  "meta": {
+    "titulo": "Revisão — Tópicos em Contabilidade II",
+    "subtitulo": "DFC · DVA · Notas Explicativas",
+    "observacao": "Campo 'say' = texto falado (números por extenso, siglas soletradas quando necessário). Campo 'cap' = legenda na tela. 'pause' = silêncio após a frase, em segundos. 'think' = tempo de silêncio do 'Pause e responda'."
+  },
+  "scenes": [
+    {
+      "id": "s1",
+      "num": 1,
+      "title": "Abertura",
+      "block": "intro",
+      "lines": [
+        {
+          "id": "a1",
+          "say": "Bom dia! Vamos revisar para a prova, com calma.",
+          "pause": 0.5
+        },
+        {
+          "id": "a2",
+          "say": "Comece guardando esta frase: lucro não é caixa.",
+          "pause": 0.6
+        },
+        {
+          "id": "a3",
+          "say": "A Companhia Exemplo teve lucro de três mil e novecentos.",
+          "cap": "A Cia Exemplo teve lucro de 3.900.",
+          "pause": 0.3
+        },
+        {
+          "id": "a4",
+          "say": "Mas a operação consumiu mil e oitocentos de caixa.",
+          "cap": "Mas a operação consumiu 1.800 de caixa.",
+          "pause": 0.6
+        },
+        {
+          "id": "a5",
+          "say": "Hoje vamos ver três temas.",
+          "pause": 0.2
+        },
+        {
+          "id": "a6",
+          "say": "A DFC, a DVA e as Notas Explicativas.",
+          "pause": 0.8
+        }
+      ]
+    },
+    {
+      "id": "s2",
+      "num": 2,
+      "title": "O funil do caixa",
+      "block": "dfc",
+      "lines": [
+        {
+          "id": "b1",
+          "say": "Primeiro: o que conta como caixa na DFC?",
+          "pause": 0.4
+        },
+        {
+          "id": "b2",
+          "say": "Caixa e equivalentes de caixa. Pense num funil com três filtros.",
+          "pause": 0.5
+        },
+        {
+          "id": "b3",
+          "say": "Filtro um: sem variação relevante de valor.",
+          "pause": 0.4
+        },
+        {
+          "id": "b4",
+          "say": "Filtro dois: alta liquidez. Vira dinheiro rápido.",
+          "pause": 0.4
+        },
+        {
+          "id": "b5",
+          "say": "Filtro três: prazo inferior a três meses.",
+          "cap": "Filtro três: prazo inferior a 3 meses.",
+          "pause": 0.4
+        },
+        {
+          "id": "b6",
+          "say": "Passou nos três? Então é equivalente de caixa.",
+          "pause": 0.6
+        },
+        {
+          "id": "b7",
+          "say": "E quem fica de fora? Fundos de ações e fundos cambiais.",
+          "pause": 0.3
+        },
+        {
+          "id": "b8",
+          "say": "O valor deles oscila. Eles param no primeiro filtro.",
+          "pause": 0.6
+        },
+        {
+          "id": "b9",
+          "say": "Agora, uma pegadinha clássica.",
+          "pause": 0.3
+        },
+        {
+          "id": "b10",
+          "say": "Tirei dinheiro do banco e apliquei num equivalente de caixa. Isso é fluxo?",
+          "pause": 0.5
+        },
+        {
+          "id": "b11",
+          "say": "Não! O dinheiro só trocou de gaveta, dentro da mesma caixa.",
+          "pause": 0.8
+        },
+        {
+          "id": "q2",
+          "kind": "quiz-q",
+          "say": "Pause e responda: um fundo cambial é equivalente de caixa?",
+          "think": 4
+        },
+        {
+          "id": "r2",
+          "kind": "quiz-a",
+          "say": "Não. O valor dele oscila muito. Fica fora do funil.",
+          "pause": 1.0
+        }
+      ]
+    },
+    {
+      "id": "s3",
+      "num": 3,
+      "title": "Os 3 canos",
+      "block": "dfc",
+      "lines": [
+        {
+          "id": "c1",
+          "say": "Agora: por onde o caixa entra e sai?",
+          "pause": 0.3
+        },
+        {
+          "id": "c2",
+          "say": "Imagine três canos ligados ao caixa da empresa.",
+          "pause": 0.5
+        },
+        {
+          "id": "c3",
+          "say": "Primeiro cano: operacional. É o dia a dia do negócio.",
+          "pause": 0.3
+        },
+        {
+          "id": "c4",
+          "say": "Receber de clientes. Pagar fornecedores. Pagar salários.",
+          "pause": 0.5
+        },
+        {
+          "id": "c5",
+          "say": "Segundo cano: investimento. São os ativos de longo prazo.",
+          "pause": 0.3
+        },
+        {
+          "id": "c6",
+          "say": "Comprar uma máquina. Vender um imóvel. Comprar participação em outra empresa.",
+          "pause": 0.5
+        },
+        {
+          "id": "c7",
+          "say": "Terceiro cano: financiamento. É o dinheiro de sócios e credores.",
+          "pause": 0.3
+        },
+        {
+          "id": "c8",
+          "say": "Aporte dos sócios. Empréstimo recebido. Pagamento do principal.",
+          "pause": 0.7
+        },
+        {
+          "id": "c9",
+          "say": "Agora, atenção ao item doze.",
+          "cap": "Agora, atenção ao item 12.",
+          "pause": 0.3
+        },
+        {
+          "id": "c10",
+          "say": "A parcela do empréstimo se divide em duas.",
+          "pause": 0.3
+        },
+        {
+          "id": "c11",
+          "say": "Os juros podem ir para a operacional. O principal vai para financiamento.",
+          "pause": 0.6
+        },
+        {
+          "id": "c12",
+          "say": "E na compra financiada? Só entra a parte paga em dinheiro.",
+          "pause": 0.3
+        },
+        {
+          "id": "c13",
+          "say": "A parte financiada não passou pelo caixa. Fica fora da DFC.",
+          "pause": 0.8
+        },
+        {
+          "id": "q3",
+          "kind": "quiz-q",
+          "say": "Pause e responda: pagar o principal de um empréstimo entra em qual cano?",
+          "think": 4
+        },
+        {
+          "id": "r3",
+          "kind": "quiz-a",
+          "say": "Financiamento. Os juros é que podem ir para a operacional.",
+          "pause": 1.0
+        }
+      ]
+    },
+    {
+      "id": "s4",
+      "num": 4,
+      "title": "Juros e dividendos",
+      "block": "dfc",
+      "lines": [
+        {
+          "id": "d1",
+          "say": "Juros e dividendos confundem muita gente. Vamos organizar.",
+          "pause": 0.3
+        },
+        {
+          "id": "d2",
+          "say": "A norma encoraja um caminho e aceita uma alternativa.",
+          "pause": 0.5
+        },
+        {
+          "id": "d3",
+          "say": "Juros pagos: operacional. Alternativa: financiamento.",
+          "pause": 0.4
+        },
+        {
+          "id": "d4",
+          "say": "Juros recebidos: operacional. Alternativa: investimento.",
+          "pause": 0.4
+        },
+        {
+          "id": "d5",
+          "say": "Dividendos recebidos: operacional. Alternativa: investimento.",
+          "pause": 0.4
+        },
+        {
+          "id": "d6",
+          "say": "Já os dividendos pagos: financiamento. Alternativa: operacional.",
+          "pause": 0.6
+        },
+        {
+          "id": "d7",
+          "say": "E o imposto de renda e a contribuição social? Em regra, na operacional.",
+          "cap": "E o IR e a CSLL? Em regra, na operacional.",
+          "pause": 0.8
+        },
+        {
+          "id": "q4",
+          "kind": "quiz-q",
+          "say": "Pause e responda: na forma encorajada, onde entram os dividendos pagos?",
+          "think": 4
+        },
+        {
+          "id": "r4",
+          "kind": "quiz-a",
+          "say": "Financiamento. É o único da tabela que fica fora da operacional.",
+          "pause": 1.0
+        }
+      ]
+    },
+    {
+      "id": "s5",
+      "num": 5,
+      "title": "Direto x indireto",
+      "block": "dfc",
+      "lines": [
+        {
+          "id": "e1",
+          "say": "O caixa operacional pode ser apresentado por dois métodos.",
+          "pause": 0.3
+        },
+        {
+          "id": "e2",
+          "say": "Mesmo destino, dois caminhos.",
+          "pause": 0.5
+        },
+        {
+          "id": "e3",
+          "say": "O método direto mostra os recebimentos e pagamentos brutos.",
+          "pause": 0.3
+        },
+        {
+          "id": "e4",
+          "say": "Quanto entrou de clientes. Quanto saiu para fornecedores e empregados.",
+          "pause": 0.6
+        },
+        {
+          "id": "e5",
+          "say": "O método indireto é uma cascata.",
+          "pause": 0.3
+        },
+        {
+          "id": "e6",
+          "say": "Começa no lucro líquido.",
+          "pause": 0.3
+        },
+        {
+          "id": "e7",
+          "say": "Depois, soma os itens sem efeito caixa, como a depreciação.",
+          "pause": 0.3
+        },
+        {
+          "id": "e8",
+          "say": "Ajusta as variações do capital de giro.",
+          "pause": 0.3
+        },
+        {
+          "id": "e9",
+          "say": "E chega no mesmo caixa operacional do método direto.",
+          "pause": 0.7
+        },
+        {
+          "id": "e10",
+          "say": "Agora, a regra que mais cai.",
+          "pause": 0.3
+        },
+        {
+          "id": "e11",
+          "say": "Aumento de ativo tira caixa.",
+          "pause": 0.3
+        },
+        {
+          "id": "e12",
+          "say": "Clientes a receber subiu? Você vendeu, mas não recebeu.",
+          "pause": 0.5
+        },
+        {
+          "id": "e13",
+          "say": "Aumento de passivo põe caixa.",
+          "pause": 0.3
+        },
+        {
+          "id": "e14",
+          "say": "Fornecedores a pagar subiu? Você comprou, mas ainda não pagou.",
+          "pause": 0.5
+        },
+        {
+          "id": "e15",
+          "say": "E o inverso também vale. Ativo caindo põe caixa. Passivo caindo tira.",
+          "pause": 0.7
+        },
+        {
+          "id": "e16",
+          "say": "No Brasil, quem usa o método direto também apresenta a conciliação do lucro com o caixa operacional.",
+          "pause": 0.3
+        },
+        {
+          "id": "e17",
+          "say": "Está no item vinte A.",
+          "cap": "Está no item 20A.",
+          "pause": 0.8
+        },
+        {
+          "id": "q5",
+          "kind": "quiz-q",
+          "say": "Pause e responda: os estoques aumentaram. No método indireto, você soma ou subtrai?",
+          "think": 4
+        },
+        {
+          "id": "r5",
+          "kind": "quiz-a",
+          "say": "Subtrai. Estoque é ativo. Aumento de ativo tira caixa.",
+          "pause": 1.0
+        }
+      ]
+    },
+    {
+      "id": "s6",
+      "num": 6,
+      "title": "Cia Exemplo em 60 segundos",
+      "block": "dfc",
+      "lines": [
+        {
+          "id": "f1",
+          "say": "Agora, a DFC da Companhia Exemplo, em sessenta segundos.",
+          "cap": "Agora, a DFC da Cia Exemplo, em 60 segundos.",
+          "pause": 0.5
+        },
+        {
+          "id": "f2",
+          "say": "Operacional: menos mil e oitocentos.",
+          "cap": "Operacional: −1.800.",
+          "pause": 0.4
+        },
+        {
+          "id": "f3",
+          "say": "Investimento: menos cinco mil.",
+          "cap": "Investimento: −5.000.",
+          "pause": 0.4
+        },
+        {
+          "id": "f4",
+          "say": "Financiamento: mais dezoito mil e quinhentos.",
+          "cap": "Financiamento: +18.500.",
+          "pause": 0.4
+        },
+        {
+          "id": "f5",
+          "say": "Somando tudo, o caixa aumentou onze mil e setecentos.",
+          "cap": "Somando tudo, o caixa aumentou 11.700.",
+          "pause": 0.7
+        },
+        {
+          "id": "f6",
+          "say": "Parece ótimo, certo? Calma. Olhe a origem.",
+          "pause": 0.4
+        },
+        {
+          "id": "f7",
+          "say": "A empresa lucrou, mas a operação consumiu caixa.",
+          "pause": 0.3
+        },
+        {
+          "id": "f8",
+          "say": "O dinheiro veio dos sócios e de empréstimos.",
+          "pause": 0.3
+        },
+        {
+          "id": "f9",
+          "say": "Foi ele que pagou os investimentos e cobriu a operação.",
+          "pause": 0.8
+        },
+        {
+          "id": "q6",
+          "kind": "quiz-q",
+          "say": "Pause e responda: você emprestaria dinheiro para essa empresa?",
+          "think": 4
+        },
+        {
+          "id": "r6",
+          "kind": "quiz-a",
+          "say": "Não há resposta única. Mas o alerta é claro.",
+          "pause": 0.3
+        },
+        {
+          "id": "r6b",
+          "kind": "quiz-a",
+          "say": "A operação não gera caixa. Hoje, quem paga a conta são os sócios e os credores.",
+          "pause": 1.0
+        }
+      ]
+    },
+    {
+      "id": "s7",
+      "num": 7,
+      "title": "DVA",
+      "block": "dva",
+      "lines": [
+        {
+          "id": "g1",
+          "say": "Agora, a dê vê á: quanta riqueza a empresa gerou, e para quem foi.",
+          "pause": 0.5,
+          "cap": "Agora, a DVA: quanta riqueza a empresa gerou, e para quem foi."
+        },
+        {
+          "id": "g2",
+          "say": "Pense na cadeia do pão.",
+          "pause": 0.3
+        },
+        {
+          "id": "g3",
+          "say": "O agricultor vende o trigo por duzentos e cinquenta.",
+          "cap": "O agricultor vende o trigo por 250.",
+          "pause": 0.3
+        },
+        {
+          "id": "g4",
+          "say": "O moinho faz a farinha e vende por quatrocentos. Agregou cento e cinquenta.",
+          "cap": "O moinho faz a farinha e vende por 400. Agregou 150.",
+          "pause": 0.3
+        },
+        {
+          "id": "g5",
+          "say": "A padaria faz o pão e vende por mil. Agregou seiscentos.",
+          "cap": "A padaria faz o pão e vende por 1.000. Agregou 600.",
+          "pause": 0.5
+        },
+        {
+          "id": "g6",
+          "say": "Somar as vendas dá mil seiscentos e cinquenta. Mas conta o trigo várias vezes.",
+          "cap": "Somar as vendas dá 1.650. Mas conta o trigo várias vezes.",
+          "pause": 0.4
+        },
+        {
+          "id": "g7",
+          "say": "A riqueza nova é só o que cada um agregou: mil. É a lógica do Produto Interno Bruto.",
+          "cap": "A riqueza nova é só o que cada um agregou: 1.000. É a lógica do PIB.",
+          "pause": 0.7
+        },
+        {
+          "id": "g8",
+          "say": "Na empresa, a lógica é a mesma: vendas, menos insumos, mais transferências.",
+          "pause": 0.6
+        },
+        {
+          "id": "g9",
+          "say": "No modelo da DVA, isso vira um funil de oito itens.",
+          "cap": "No modelo da DVA, isso vira um funil de 8 itens.",
+          "pause": 0.3
+        },
+        {
+          "id": "g10",
+          "say": "Receitas, menos insumos de terceiros: valor adicionado bruto.",
+          "pause": 0.3
+        },
+        {
+          "id": "g11",
+          "say": "Menos as retenções, como a depreciação: valor adicionado líquido.",
+          "pause": 0.3
+        },
+        {
+          "id": "g12",
+          "say": "Mais o que veio em transferência. Chegamos ao item sete: o valor adicionado a distribuir.",
+          "cap": "Mais o que veio em transferência. Chegamos ao item 7: o valor adicionado a distribuir.",
+          "pause": 0.5
+        },
+        {
+          "id": "g13",
+          "say": "O item oito distribui essa riqueza em quatro baldes.",
+          "cap": "O item 8 distribui essa riqueza em 4 baldes.",
+          "pause": 0.3
+        },
+        {
+          "id": "g14",
+          "say": "Pessoal. Governo. Terceiros, que emprestam dinheiro ou imóveis. E sócios.",
+          "pause": 0.5
+        },
+        {
+          "id": "g15",
+          "say": "Regra de ouro: item sete igual a item oito. Tudo o que foi gerado é distribuído.",
+          "cap": "Regra de ouro: item 7 = item 8. Tudo o que foi gerado é distribuído.",
+          "pause": 0.7
+        },
+        {
+          "id": "g16",
+          "say": "Agora, três pegadinhas.",
+          "pause": 0.3
+        },
+        {
+          "id": "g17",
+          "say": "Um: receita e insumos entram pelo valor bruto, com os tributos incluídos.",
+          "pause": 0.4
+        },
+        {
+          "id": "g18",
+          "say": "Dois: o i ene esse esse patronal vai para Governo, não para Pessoal.",
+          "cap": "Dois: o INSS patronal vai para Governo, não para Pessoal.",
+          "pause": 0.4
+        },
+        {
+          "id": "g19",
+          "say": "Três: aluguel vai para Terceiros. Não é insumo.",
+          "pause": 0.8
+        },
+        {
+          "id": "q7",
+          "kind": "quiz-q",
+          "say": "Pause e responda: por que a riqueza do pão é mil, e não mil seiscentos e cinquenta?",
+          "cap": "Pause e responda: por que a riqueza do pão é 1.000, e não 1.650?",
+          "think": 4
+        },
+        {
+          "id": "r7",
+          "kind": "quiz-a",
+          "say": "Porque só conta o que cada etapa agregou: duzentos e cinquenta, mais cento e cinquenta, mais seiscentos.",
+          "cap": "Porque só conta o que cada etapa agregou: 250 + 150 + 600 = 1.000.",
+          "pause": 1.0
+        }
+      ]
+    },
+    {
+      "id": "s8",
+      "num": 8,
+      "title": "Notas Explicativas",
+      "block": "notas",
+      "lines": [
+        {
+          "id": "h1",
+          "say": "Último bloco: Notas Explicativas. Ritmo rápido.",
+          "pause": 0.5
+        },
+        {
+          "id": "h2",
+          "say": "Primeiro: sinal e ruído.",
+          "pause": 0.3
+        },
+        {
+          "id": "h3",
+          "say": "Nota boa entrega sinal: o que importa para decidir.",
+          "pause": 0.3
+        },
+        {
+          "id": "h4",
+          "say": "Informação demais, sem relevância, vira ruído.",
+          "pause": 0.3
+        },
+        {
+          "id": "h5",
+          "say": "O filtro é a materialidade. Se omitir pode mudar a decisão do usuário, é material.",
+          "pause": 0.3
+        },
+        {
+          "id": "h6",
+          "say": "Isso está na ó cê pê cê zero sete e no CPC cinquenta e um.",
+          "cap": "Isso está na OCPC 07 e no CPC 51.",
+          "pause": 0.6
+        },
+        {
+          "id": "h7",
+          "say": "Segundo: a ordem das notas. CPC vinte e seis, item cento e catorze.",
+          "cap": "Segundo: a ordem das notas. CPC 26, item 114.",
+          "pause": 0.3
+        },
+        {
+          "id": "h8",
+          "say": "Declaração de conformidade. Resumo das políticas contábeis. Detalhe dos itens, na ordem das demonstrações. E outras divulgações.",
+          "pause": 0.6
+        },
+        {
+          "id": "h9",
+          "say": "Terceiro: CPC vinte e três, em três caixas.",
+          "cap": "Terceiro: CPC 23, em três caixas.",
+          "pause": 0.3
+        },
+        {
+          "id": "h10",
+          "say": "Mudou a política contábil? Retrospectiva. Como se sempre tivesse sido assim.",
+          "pause": 0.3
+        },
+        {
+          "id": "h11",
+          "say": "Mudou a estimativa? Prospectiva. Daqui para a frente.",
+          "pause": 0.3
+        },
+        {
+          "id": "h12",
+          "say": "Achou um erro? Reapresentação retrospectiva. Corrige o passado.",
+          "pause": 0.6
+        },
+        {
+          "id": "h13",
+          "say": "Quarto: CPC vinte e quatro, eventos subsequentes.",
+          "cap": "Quarto: CPC 24, eventos subsequentes.",
+          "pause": 0.3
+        },
+        {
+          "id": "h14",
+          "say": "A janela vai da data do balanço até a autorização para emissão.",
+          "pause": 0.3
+        },
+        {
+          "id": "h15",
+          "say": "A condição já existia na data do balanço? Ajusta.",
+          "pause": 0.3
+        },
+        {
+          "id": "h16",
+          "say": "A condição é nova, surgiu depois? Não ajusta. Só divulga.",
+          "pause": 0.6
+        },
+        {
+          "id": "h17",
+          "say": "Quinto: CPC 21. É a base do ITR, trimestral e condensado.",
+          "pause": 0.6
+        },
+        {
+          "id": "h18",
+          "say": "Sexto: CPC zero cinco, partes relacionadas.",
+          "cap": "Sexto: CPC 05, partes relacionadas.",
+          "pause": 0.3
+        },
+        {
+          "id": "h19",
+          "say": "É parte relacionada: controladora, controlada, coligada e o pessoal-chave da administração.",
+          "pause": 0.3
+        },
+        {
+          "id": "h20",
+          "say": "Não é, só por isso: um grande cliente ou fornecedor, um banco que financia, ou duas empresas com um administrador em comum.",
+          "pause": 0.8
+        },
+        {
+          "id": "q8",
+          "kind": "quiz-q",
+          "say": "Pause e responda: achei um erro do ano passado. Corrijo de forma prospectiva?",
+          "think": 4
+        },
+        {
+          "id": "r8",
+          "kind": "quiz-a",
+          "say": "Não. Para erro, a reapresentação é retrospectiva. Prospectiva é para mudança de estimativa.",
+          "pause": 1.0
+        }
+      ]
+    },
+    {
+      "id": "s9",
+      "num": 9,
+      "title": "Fechamento",
+      "block": "fim",
+      "lines": [
+        {
+          "id": "i1",
+          "say": "Para fechar, o checklist das oito pegadinhas.",
+          "cap": "Para fechar, o checklist das 8 pegadinhas.",
+          "pause": 0.4
+        },
+        {
+          "id": "i2",
+          "say": "Banco para aplicação equivalente de caixa: não é fluxo.",
+          "pause": 0.25
+        },
+        {
+          "id": "i3",
+          "say": "Fundos de ações e cambiais: fora do caixa.",
+          "pause": 0.25
+        },
+        {
+          "id": "i4",
+          "say": "Parcela de empréstimo: juros de um lado, principal do outro.",
+          "pause": 0.25
+        },
+        {
+          "id": "i5",
+          "say": "Compra financiada: só a parte paga em dinheiro.",
+          "pause": 0.25
+        },
+        {
+          "id": "i6",
+          "say": "Aumento de ativo tira caixa. Aumento de passivo põe.",
+          "pause": 0.25
+        },
+        {
+          "id": "i7",
+          "say": "Na dê vê á, receita e insumos vão pelo valor bruto.",
+          "pause": 0.25,
+          "cap": "Na DVA, receita e insumos vão pelo valor bruto."
+        },
+        {
+          "id": "i8",
+          "say": "O i ene esse esse patronal é Governo. O aluguel é Terceiros.",
+          "cap": "O INSS patronal é Governo. O aluguel é Terceiros.",
+          "pause": 0.25
+        },
+        {
+          "id": "i9",
+          "say": "Evento subsequente: condição que já existia, ajusta.",
+          "pause": 0.6
+        },
+        {
+          "id": "i10",
+          "say": "Respira fundo. Você estudou. Boa prova!",
+          "pause": 1.5
+        }
+      ]
+    }
+  ]
+}

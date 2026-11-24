@@ -1,0 +1,6 @@
+node_modules/
+narracao/cache/
+tts/modelos/
+out/
+*.log
+public/audio/

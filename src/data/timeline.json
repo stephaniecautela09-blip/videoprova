@@ -1,0 +1,1239 @@
+{
+ "fps": 30,
+ "engine": "kokoro|pf_dora|0.95",
+ "scenes": [
+  {
+   "id": "s1",
+   "num": 1,
+   "title": "Abertura",
+   "block": "intro",
+   "audio": "audio/s1.wav",
+   "durationInFrames": 609,
+   "lines": [
+    {
+     "id": "a1",
+     "kind": "line",
+     "cap": "Bom dia! Vamos revisar para a prova, com calma.",
+     "say": "Bom dia! Vamos revisar para a prova, com calma.",
+     "start": 15,
+     "end": 97,
+     "thinkEnd": null
+    },
+    {
+     "id": "a2",
+     "kind": "line",
+     "cap": "Comece guardando esta frase: lucro não é caixa.",
+     "say": "Comece guardando esta frase: lucro não é caixa.",
+     "start": 108,
+     "end": 193,
+     "thinkEnd": null
+    },
+    {
+     "id": "a3",
+     "kind": "line",
+     "cap": "A Cia Exemplo teve lucro de 3.900.",
+     "say": "A Companhia Exemplo teve lucro de três mil e novecentos.",
+     "start": 206,
+     "end": 311,
+     "thinkEnd": null
+    },
+    {
+     "id": "a4",
+     "kind": "line",
+     "cap": "Mas a operação consumiu 1.800 de caixa.",
+     "say": "Mas a operação consumiu mil e oitocentos de caixa.",
+     "start": 318,
+     "end": 413,
+     "thinkEnd": null
+    },
+    {
+     "id": "a5",
+     "kind": "line",
+     "cap": "Hoje vamos ver três temas.",
+     "say": "Hoje vamos ver três temas.",
+     "start": 426,
+     "end": 481,
+     "thinkEnd": null
+    },
+    {
+     "id": "a6",
+     "kind": "line",
+     "cap": "A DFC, a DVA e as Notas Explicativas.",
+     "say": "A DFC, a DVA e as Notas Explicativas.",
+     "start": 485,
+     "end": 572,
+     "thinkEnd": null
+    }
+   ]
+  },
+  {
+   "id": "s2",
+   "num": 2,
+   "title": "O funil do caixa",
+   "block": "dfc",
+   "audio": "audio/s2.wav",
+   "durationInFrames": 1501,
+   "lines": [
+    {
+     "id": "b1",
+     "kind": "line",
+     "cap": "Primeiro: o que conta como caixa na DFC?",
+     "say": "Primeiro: o que conta como caixa na DFC?",
+     "start": 15,
+     "end": 90,
+     "thinkEnd": null
+    },
+    {
+     "id": "b2",
+     "kind": "line",
+     "cap": "Caixa e equivalentes de caixa. Pense num funil com três filtros.",
+     "say": "Caixa e equivalentes de caixa. Pense num funil com três filtros.",
+     "start": 99,
+     "end": 222,
+     "thinkEnd": null
+    },
+    {
+     "id": "b3",
+     "kind": "line",
+     "cap": "Filtro um: sem variação relevante de valor.",
+     "say": "Filtro um: sem variação relevante de valor.",
+     "start": 233,
+     "end": 313,
+     "thinkEnd": null
+    },
+    {
+     "id": "b4",
+     "kind": "line",
+     "cap": "Filtro dois: alta liquidez. Vira dinheiro rápido.",
+     "say": "Filtro dois: alta liquidez. Vira dinheiro rápido.",
+     "start": 322,
+     "end": 414,
+     "thinkEnd": null
+    },
+    {
+     "id": "b5",
+     "kind": "line",
+     "cap": "Filtro três: prazo inferior a 3 meses.",
+     "say": "Filtro três: prazo inferior a três meses.",
+     "start": 423,
+     "end": 498,
+     "thinkEnd": null
+    },
+    {
+     "id": "b6",
+     "kind": "line",
+     "cap": "Passou nos três? Então é equivalente de caixa.",
+     "say": "Passou nos três? Então é equivalente de caixa.",
+     "start": 507,
+     "end": 590,
+     "thinkEnd": null
+    },
+    {
+     "id": "b7",
+     "kind": "line",
+     "cap": "E quem fica de fora? Fundos de ações e fundos cambiais.",
+     "say": "E quem fica de fora? Fundos de ações e fundos cambiais.",
+     "start": 603,
+     "end": 711,
+     "thinkEnd": null
+    },
+    {
+     "id": "b8",
+     "kind": "line",
+     "cap": "O valor deles oscila. Eles param no primeiro filtro.",
+     "say": "O valor deles oscila. Eles param no primeiro filtro.",
+     "start": 717,
+     "end": 811,
+     "thinkEnd": null
+    },
+    {
+     "id": "b9",
+     "kind": "line",
+     "cap": "Agora, uma pegadinha clássica.",
+     "say": "Agora, uma pegadinha clássica.",
+     "start": 825,
+     "end": 886,
+     "thinkEnd": null
+    },
+    {
+     "id": "b10",
+     "kind": "line",
+     "cap": "Tirei dinheiro do banco e apliquei num equivalente de caixa. Isso é fluxo?",
+     "say": "Tirei dinheiro do banco e apliquei num equivalente de caixa. Isso é fluxo?",
+     "start": 893,
+     "end": 1022,
+     "thinkEnd": null
+    },
+    {
+     "id": "b11",
+     "kind": "line",
+     "cap": "Não! O dinheiro só trocou de gaveta, dentro da mesma caixa.",
+     "say": "Não! O dinheiro só trocou de gaveta, dentro da mesma caixa.",
+     "start": 1034,
+     "end": 1135,
+     "thinkEnd": null
+    },
+    {
+     "id": "q2",
+     "kind": "quiz-q",
+     "cap": "Pause e responda: um fundo cambial é equivalente de caixa?",
+     "say": "Pause e responda: um fundo cambial é equivalente de caixa?",
+     "start": 1153,
+     "end": 1258,
+     "thinkEnd": 1378
+    },
+    {
+     "id": "r2",
+     "kind": "quiz-a",
+     "cap": "Não. O valor dele oscila muito. Fica fora do funil.",
+     "say": "Não. O valor dele oscila muito. Fica fora do funil.",
+     "start": 1378,
+     "end": 1460,
+     "thinkEnd": null
+    }
+   ]
+  },
+  {
+   "id": "s3",
+   "num": 3,
+   "title": "Os 3 canos",
+   "block": "dfc",
+   "audio": "audio/s3.wav",
+   "durationInFrames": 1891,
+   "lines": [
+    {
+     "id": "c1",
+     "kind": "line",
+     "cap": "Agora: por onde o caixa entra e sai?",
+     "say": "Agora: por onde o caixa entra e sai?",
+     "start": 15,
+     "end": 78,
+     "thinkEnd": null
+    },
+    {
+     "id": "c2",
+     "kind": "line",
+     "cap": "Imagine três canos ligados ao caixa da empresa.",
+     "say": "Imagine três canos ligados ao caixa da empresa.",
+     "start": 85,
+     "end": 177,
+     "thinkEnd": null
+    },
+    {
+     "id": "c3",
+     "kind": "line",
+     "cap": "Primeiro cano: operacional. É o dia a dia do negócio.",
+     "say": "Primeiro cano: operacional. É o dia a dia do negócio.",
+     "start": 188,
+     "end": 285,
+     "thinkEnd": null
+    },
+    {
+     "id": "c4",
+     "kind": "line",
+     "cap": "Receber de clientes. Pagar fornecedores. Pagar salários.",
+     "say": "Receber de clientes. Pagar fornecedores. Pagar salários.",
+     "start": 292,
+     "end": 402,
+     "thinkEnd": null
+    },
+    {
+     "id": "c5",
+     "kind": "line",
+     "cap": "Segundo cano: investimento. São os ativos de longo prazo.",
+     "say": "Segundo cano: investimento. São os ativos de longo prazo.",
+     "start": 413,
+     "end": 522,
+     "thinkEnd": null
+    },
+    {
+     "id": "c6",
+     "kind": "line",
+     "cap": "Comprar uma máquina. Vender um imóvel. Comprar participação em outra empresa.",
+     "say": "Comprar uma máquina. Vender um imóvel. Comprar participação em outra empresa.",
+     "start": 529,
+     "end": 669,
+     "thinkEnd": null
+    },
+    {
+     "id": "c7",
+     "kind": "line",
+     "cap": "Terceiro cano: financiamento. É o dinheiro de sócios e credores.",
+     "say": "Terceiro cano: financiamento. É o dinheiro de sócios e credores.",
+     "start": 680,
+     "end": 803,
+     "thinkEnd": null
+    },
+    {
+     "id": "c8",
+     "kind": "line",
+     "cap": "Aporte dos sócios. Empréstimo recebido. Pagamento do principal.",
+     "say": "Aporte dos sócios. Empréstimo recebido. Pagamento do principal.",
+     "start": 810,
+     "end": 932,
+     "thinkEnd": null
+    },
+    {
+     "id": "c9",
+     "kind": "line",
+     "cap": "Agora, atenção ao item 12.",
+     "say": "Agora, atenção ao item doze.",
+     "start": 947,
+     "end": 1013,
+     "thinkEnd": null
+    },
+    {
+     "id": "c10",
+     "kind": "line",
+     "cap": "A parcela do empréstimo se divide em duas.",
+     "say": "A parcela do empréstimo se divide em duas.",
+     "start": 1020,
+     "end": 1101,
+     "thinkEnd": null
+    },
+    {
+     "id": "c11",
+     "kind": "line",
+     "cap": "Os juros podem ir para a operacional. O principal vai para financiamento.",
+     "say": "Os juros podem ir para a operacional. O principal vai para financiamento.",
+     "start": 1108,
+     "end": 1236,
+     "thinkEnd": null
+    },
+    {
+     "id": "c12",
+     "kind": "line",
+     "cap": "E na compra financiada? Só entra a parte paga em dinheiro.",
+     "say": "E na compra financiada? Só entra a parte paga em dinheiro.",
+     "start": 1250,
+     "end": 1357,
+     "thinkEnd": null
+    },
+    {
+     "id": "c13",
+     "kind": "line",
+     "cap": "A parte financiada não passou pelo caixa. Fica fora da DFC.",
+     "say": "A parte financiada não passou pelo caixa. Fica fora da DFC.",
+     "start": 1364,
+     "end": 1485,
+     "thinkEnd": null
+    },
+    {
+     "id": "q3",
+     "kind": "quiz-q",
+     "cap": "Pause e responda: pagar o principal de um empréstimo entra em qual cano?",
+     "say": "Pause e responda: pagar o principal de um empréstimo entra em qual cano?",
+     "start": 1503,
+     "end": 1624,
+     "thinkEnd": 1744
+    },
+    {
+     "id": "r3",
+     "kind": "quiz-a",
+     "cap": "Financiamento. Os juros é que podem ir para a operacional.",
+     "say": "Financiamento. Os juros é que podem ir para a operacional.",
+     "start": 1744,
+     "end": 1850,
+     "thinkEnd": null
+    }
+   ]
+  },
+  {
+   "id": "s4",
+   "num": 4,
+   "title": "Juros e dividendos",
+   "block": "dfc",
+   "audio": "audio/s4.wav",
+   "durationInFrames": 1286,
+   "lines": [
+    {
+     "id": "d1",
+     "kind": "line",
+     "cap": "Juros e dividendos confundem muita gente. Vamos organizar.",
+     "say": "Juros e dividendos confundem muita gente. Vamos organizar.",
+     "start": 15,
+     "end": 131,
+     "thinkEnd": null
+    },
+    {
+     "id": "d2",
+     "kind": "line",
+     "cap": "A norma encoraja um caminho e aceita uma alternativa.",
+     "say": "A norma encoraja um caminho e aceita uma alternativa.",
+     "start": 138,
+     "end": 232,
+     "thinkEnd": null
+    },
+    {
+     "id": "d3",
+     "kind": "line",
+     "cap": "Juros pagos: operacional. Alternativa: financiamento.",
+     "say": "Juros pagos: operacional. Alternativa: financiamento.",
+     "start": 243,
+     "end": 344,
+     "thinkEnd": null
+    },
+    {
+     "id": "d4",
+     "kind": "line",
+     "cap": "Juros recebidos: operacional. Alternativa: investimento.",
+     "say": "Juros recebidos: operacional. Alternativa: investimento.",
+     "start": 353,
+     "end": 458,
+     "thinkEnd": null
+    },
+    {
+     "id": "d5",
+     "kind": "line",
+     "cap": "Dividendos recebidos: operacional. Alternativa: investimento.",
+     "say": "Dividendos recebidos: operacional. Alternativa: investimento.",
+     "start": 467,
+     "end": 584,
+     "thinkEnd": null
+    },
+    {
+     "id": "d6",
+     "kind": "line",
+     "cap": "Já os dividendos pagos: financiamento. Alternativa: operacional.",
+     "say": "Já os dividendos pagos: financiamento. Alternativa: operacional.",
+     "start": 593,
+     "end": 714,
+     "thinkEnd": null
+    },
+    {
+     "id": "d7",
+     "kind": "line",
+     "cap": "E o IR e a CSLL? Em regra, na operacional.",
+     "say": "E o imposto de renda e a contribuição social? Em regra, na operacional.",
+     "start": 728,
+     "end": 856,
+     "thinkEnd": null
+    },
+    {
+     "id": "q4",
+     "kind": "quiz-q",
+     "cap": "Pause e responda: na forma encorajada, onde entram os dividendos pagos?",
+     "say": "Pause e responda: na forma encorajada, onde entram os dividendos pagos?",
+     "start": 874,
+     "end": 1009,
+     "thinkEnd": 1129
+    },
+    {
+     "id": "r4",
+     "kind": "quiz-a",
+     "cap": "Financiamento. É o único da tabela que fica fora da operacional.",
+     "say": "Financiamento. É o único da tabela que fica fora da operacional.",
+     "start": 1129,
+     "end": 1245,
+     "thinkEnd": null
+    }
+   ]
+  },
+  {
+   "id": "s5",
+   "num": 5,
+   "title": "Direto x indireto",
+   "block": "dfc",
+   "audio": "audio/s5.wav",
+   "durationInFrames": 2171,
+   "lines": [
+    {
+     "id": "e1",
+     "kind": "line",
+     "cap": "O caixa operacional pode ser apresentado por dois métodos.",
+     "say": "O caixa operacional pode ser apresentado por dois métodos.",
+     "start": 15,
+     "end": 132,
+     "thinkEnd": null
+    },
+    {
+     "id": "e2",
+     "kind": "line",
+     "cap": "Mesmo destino, dois caminhos.",
+     "say": "Mesmo destino, dois caminhos.",
+     "start": 139,
+     "end": 198,
+     "thinkEnd": null
+    },
+    {
+     "id": "e3",
+     "kind": "line",
+     "cap": "O método direto mostra os recebimentos e pagamentos brutos.",
+     "say": "O método direto mostra os recebimentos e pagamentos brutos.",
+     "start": 209,
+     "end": 328,
+     "thinkEnd": null
+    },
+    {
+     "id": "e4",
+     "kind": "line",
+     "cap": "Quanto entrou de clientes. Quanto saiu para fornecedores e empregados.",
+     "say": "Quanto entrou de clientes. Quanto saiu para fornecedores e empregados.",
+     "start": 335,
+     "end": 458,
+     "thinkEnd": null
+    },
+    {
+     "id": "e5",
+     "kind": "line",
+     "cap": "O método indireto é uma cascata.",
+     "say": "O método indireto é uma cascata.",
+     "start": 472,
+     "end": 539,
+     "thinkEnd": null
+    },
+    {
+     "id": "e6",
+     "kind": "line",
+     "cap": "Começa no lucro líquido.",
+     "say": "Começa no lucro líquido.",
+     "start": 545,
+     "end": 598,
+     "thinkEnd": null
+    },
+    {
+     "id": "e7",
+     "kind": "line",
+     "cap": "Depois, soma os itens sem efeito caixa, como a depreciação.",
+     "say": "Depois, soma os itens sem efeito caixa, como a depreciação.",
+     "start": 605,
+     "end": 712,
+     "thinkEnd": null
+    },
+    {
+     "id": "e8",
+     "kind": "line",
+     "cap": "Ajusta as variações do capital de giro.",
+     "say": "Ajusta as variações do capital de giro.",
+     "start": 718,
+     "end": 794,
+     "thinkEnd": null
+    },
+    {
+     "id": "e9",
+     "kind": "line",
+     "cap": "E chega no mesmo caixa operacional do método direto.",
+     "say": "E chega no mesmo caixa operacional do método direto.",
+     "start": 801,
+     "end": 902,
+     "thinkEnd": null
+    },
+    {
+     "id": "e10",
+     "kind": "line",
+     "cap": "Agora, a regra que mais cai.",
+     "say": "Agora, a regra que mais cai.",
+     "start": 917,
+     "end": 975,
+     "thinkEnd": null
+    },
+    {
+     "id": "e11",
+     "kind": "line",
+     "cap": "Aumento de ativo tira caixa.",
+     "say": "Aumento de ativo tira caixa.",
+     "start": 982,
+     "end": 1041,
+     "thinkEnd": null
+    },
+    {
+     "id": "e12",
+     "kind": "line",
+     "cap": "Clientes a receber subiu? Você vendeu, mas não recebeu.",
+     "say": "Clientes a receber subiu? Você vendeu, mas não recebeu.",
+     "start": 1048,
+     "end": 1152,
+     "thinkEnd": null
+    },
+    {
+     "id": "e13",
+     "kind": "line",
+     "cap": "Aumento de passivo põe caixa.",
+     "say": "Aumento de passivo põe caixa.",
+     "start": 1163,
+     "end": 1225,
+     "thinkEnd": null
+    },
+    {
+     "id": "e14",
+     "kind": "line",
+     "cap": "Fornecedores a pagar subiu? Você comprou, mas ainda não pagou.",
+     "say": "Fornecedores a pagar subiu? Você comprou, mas ainda não pagou.",
+     "start": 1231,
+     "end": 1339,
+     "thinkEnd": null
+    },
+    {
+     "id": "e15",
+     "kind": "line",
+     "cap": "E o inverso também vale. Ativo caindo põe caixa. Passivo caindo tira.",
+     "say": "E o inverso também vale. Ativo caindo põe caixa. Passivo caindo tira.",
+     "start": 1350,
+     "end": 1480,
+     "thinkEnd": null
+    },
+    {
+     "id": "e16",
+     "kind": "line",
+     "cap": "No Brasil, quem usa o método direto também apresenta a conciliação do lucro com o caixa operacional.",
+     "say": "No Brasil, quem usa o método direto também apresenta a conciliação do lucro com o caixa operacional.",
+     "start": 1495,
+     "end": 1674,
+     "thinkEnd": null
+    },
+    {
+     "id": "e17",
+     "kind": "line",
+     "cap": "Está no item 20A.",
+     "say": "Está no item vinte A.",
+     "start": 1681,
+     "end": 1729,
+     "thinkEnd": null
+    },
+    {
+     "id": "q5",
+     "kind": "quiz-q",
+     "cap": "Pause e responda: os estoques aumentaram. No método indireto, você soma ou subtrai?",
+     "say": "Pause e responda: os estoques aumentaram. No método indireto, você soma ou subtrai?",
+     "start": 1747,
+     "end": 1905,
+     "thinkEnd": 2025
+    },
+    {
+     "id": "r5",
+     "kind": "quiz-a",
+     "cap": "Subtrai. Estoque é ativo. Aumento de ativo tira caixa.",
+     "say": "Subtrai. Estoque é ativo. Aumento de ativo tira caixa.",
+     "start": 2025,
+     "end": 2130,
+     "thinkEnd": null
+    }
+   ]
+  },
+  {
+   "id": "s6",
+   "num": 6,
+   "title": "Cia Exemplo em 60 segundos",
+   "block": "dfc",
+   "audio": "audio/s6.wav",
+   "durationInFrames": 1389,
+   "lines": [
+    {
+     "id": "f1",
+     "kind": "line",
+     "cap": "Agora, a DFC da Cia Exemplo, em 60 segundos.",
+     "say": "Agora, a DFC da Companhia Exemplo, em sessenta segundos.",
+     "start": 15,
+     "end": 128,
+     "thinkEnd": null
+    },
+    {
+     "id": "f2",
+     "kind": "line",
+     "cap": "Operacional: −1.800.",
+     "say": "Operacional: menos mil e oitocentos.",
+     "start": 139,
+     "end": 216,
+     "thinkEnd": null
+    },
+    {
+     "id": "f3",
+     "kind": "line",
+     "cap": "Investimento: −5.000.",
+     "say": "Investimento: menos cinco mil.",
+     "start": 225,
+     "end": 281,
+     "thinkEnd": null
+    },
+    {
+     "id": "f4",
+     "kind": "line",
+     "cap": "Financiamento: +18.500.",
+     "say": "Financiamento: mais dezoito mil e quinhentos.",
+     "start": 290,
+     "end": 375,
+     "thinkEnd": null
+    },
+    {
+     "id": "f5",
+     "kind": "line",
+     "cap": "Somando tudo, o caixa aumentou 11.700.",
+     "say": "Somando tudo, o caixa aumentou onze mil e setecentos.",
+     "start": 384,
+     "end": 483,
+     "thinkEnd": null
+    },
+    {
+     "id": "f6",
+     "kind": "line",
+     "cap": "Parece ótimo, certo? Calma. Olhe a origem.",
+     "say": "Parece ótimo, certo? Calma. Olhe a origem.",
+     "start": 499,
+     "end": 581,
+     "thinkEnd": null
+    },
+    {
+     "id": "f7",
+     "kind": "line",
+     "cap": "A empresa lucrou, mas a operação consumiu caixa.",
+     "say": "A empresa lucrou, mas a operação consumiu caixa.",
+     "start": 590,
+     "end": 681,
+     "thinkEnd": null
+    },
+    {
+     "id": "f8",
+     "kind": "line",
+     "cap": "O dinheiro veio dos sócios e de empréstimos.",
+     "say": "O dinheiro veio dos sócios e de empréstimos.",
+     "start": 688,
+     "end": 769,
+     "thinkEnd": null
+    },
+    {
+     "id": "f9",
+     "kind": "line",
+     "cap": "Foi ele que pagou os investimentos e cobriu a operação.",
+     "say": "Foi ele que pagou os investimentos e cobriu a operação.",
+     "start": 776,
+     "end": 871,
+     "thinkEnd": null
+    },
+    {
+     "id": "q6",
+     "kind": "quiz-q",
+     "cap": "Pause e responda: você emprestaria dinheiro para essa empresa?",
+     "say": "Pause e responda: você emprestaria dinheiro para essa empresa?",
+     "start": 889,
+     "end": 998,
+     "thinkEnd": 1118
+    },
+    {
+     "id": "r6",
+     "kind": "quiz-a",
+     "cap": "Não há resposta única. Mas o alerta é claro.",
+     "say": "Não há resposta única. Mas o alerta é claro.",
+     "start": 1118,
+     "end": 1195,
+     "thinkEnd": null
+    },
+    {
+     "id": "r6b",
+     "kind": "quiz-a",
+     "cap": "A operação não gera caixa. Hoje, quem paga a conta são os sócios e os credores.",
+     "say": "A operação não gera caixa. Hoje, quem paga a conta são os sócios e os credores.",
+     "start": 1202,
+     "end": 1348,
+     "thinkEnd": null
+    }
+   ]
+  },
+  {
+   "id": "s7",
+   "num": 7,
+   "title": "DVA",
+   "block": "dva",
+   "audio": "audio/s7.wav",
+   "durationInFrames": 2871,
+   "lines": [
+    {
+     "id": "g1",
+     "kind": "line",
+     "cap": "Agora, a DVA: quanta riqueza a empresa gerou, e para quem foi.",
+     "say": "Agora, a dê vê á: quanta riqueza a empresa gerou, e para quem foi.",
+     "start": 15,
+     "end": 127,
+     "thinkEnd": null
+    },
+    {
+     "id": "g2",
+     "kind": "line",
+     "cap": "Pense na cadeia do pão.",
+     "say": "Pense na cadeia do pão.",
+     "start": 139,
+     "end": 184,
+     "thinkEnd": null
+    },
+    {
+     "id": "g3",
+     "kind": "line",
+     "cap": "O agricultor vende o trigo por 250.",
+     "say": "O agricultor vende o trigo por duzentos e cinquenta.",
+     "start": 190,
+     "end": 283,
+     "thinkEnd": null
+    },
+    {
+     "id": "g4",
+     "kind": "line",
+     "cap": "O moinho faz a farinha e vende por 400. Agregou 150.",
+     "say": "O moinho faz a farinha e vende por quatrocentos. Agregou cento e cinquenta.",
+     "start": 290,
+     "end": 427,
+     "thinkEnd": null
+    },
+    {
+     "id": "g5",
+     "kind": "line",
+     "cap": "A padaria faz o pão e vende por 1.000. Agregou 600.",
+     "say": "A padaria faz o pão e vende por mil. Agregou seiscentos.",
+     "start": 434,
+     "end": 539,
+     "thinkEnd": null
+    },
+    {
+     "id": "g6",
+     "kind": "line",
+     "cap": "Somar as vendas dá 1.650. Mas conta o trigo várias vezes.",
+     "say": "Somar as vendas dá mil seiscentos e cinquenta. Mas conta o trigo várias vezes.",
+     "start": 550,
+     "end": 694,
+     "thinkEnd": null
+    },
+    {
+     "id": "g7",
+     "kind": "line",
+     "cap": "A riqueza nova é só o que cada um agregou: 1.000. É a lógica do PIB.",
+     "say": "A riqueza nova é só o que cada um agregou: mil. É a lógica do Produto Interno Bruto.",
+     "start": 703,
+     "end": 845,
+     "thinkEnd": null
+    },
+    {
+     "id": "g8",
+     "kind": "line",
+     "cap": "Na empresa, a lógica é a mesma: vendas, menos insumos, mais transferências.",
+     "say": "Na empresa, a lógica é a mesma: vendas, menos insumos, mais transferências.",
+     "start": 861,
+     "end": 1009,
+     "thinkEnd": null
+    },
+    {
+     "id": "g9",
+     "kind": "line",
+     "cap": "No modelo da DVA, isso vira um funil de 8 itens.",
+     "say": "No modelo da DVA, isso vira um funil de oito itens.",
+     "start": 1023,
+     "end": 1120,
+     "thinkEnd": null
+    },
+    {
+     "id": "g10",
+     "kind": "line",
+     "cap": "Receitas, menos insumos de terceiros: valor adicionado bruto.",
+     "say": "Receitas, menos insumos de terceiros: valor adicionado bruto.",
+     "start": 1127,
+     "end": 1246,
+     "thinkEnd": null
+    },
+    {
+     "id": "g11",
+     "kind": "line",
+     "cap": "Menos as retenções, como a depreciação: valor adicionado líquido.",
+     "say": "Menos as retenções, como a depreciação: valor adicionado líquido.",
+     "start": 1252,
+     "end": 1378,
+     "thinkEnd": null
+    },
+    {
+     "id": "g12",
+     "kind": "line",
+     "cap": "Mais o que veio em transferência. Chegamos ao item 7: o valor adicionado a distribuir.",
+     "say": "Mais o que veio em transferência. Chegamos ao item sete: o valor adicionado a distribuir.",
+     "start": 1385,
+     "end": 1554,
+     "thinkEnd": null
+    },
+    {
+     "id": "g13",
+     "kind": "line",
+     "cap": "O item 8 distribui essa riqueza em 4 baldes.",
+     "say": "O item oito distribui essa riqueza em quatro baldes.",
+     "start": 1565,
+     "end": 1669,
+     "thinkEnd": null
+    },
+    {
+     "id": "g14",
+     "kind": "line",
+     "cap": "Pessoal. Governo. Terceiros, que emprestam dinheiro ou imóveis. E sócios.",
+     "say": "Pessoal. Governo. Terceiros, que emprestam dinheiro ou imóveis. E sócios.",
+     "start": 1676,
+     "end": 1807,
+     "thinkEnd": null
+    },
+    {
+     "id": "g15",
+     "kind": "line",
+     "cap": "Regra de ouro: item 7 = item 8. Tudo o que foi gerado é distribuído.",
+     "say": "Regra de ouro: item sete igual a item oito. Tudo o que foi gerado é distribuído.",
+     "start": 1818,
+     "end": 1969,
+     "thinkEnd": null
+    },
+    {
+     "id": "g16",
+     "kind": "line",
+     "cap": "Agora, três pegadinhas.",
+     "say": "Agora, três pegadinhas.",
+     "start": 1985,
+     "end": 2039,
+     "thinkEnd": null
+    },
+    {
+     "id": "g17",
+     "kind": "line",
+     "cap": "Um: receita e insumos entram pelo valor bruto, com os tributos incluídos.",
+     "say": "Um: receita e insumos entram pelo valor bruto, com os tributos incluídos.",
+     "start": 2045,
+     "end": 2177,
+     "thinkEnd": null
+    },
+    {
+     "id": "g18",
+     "kind": "line",
+     "cap": "Dois: o INSS patronal vai para Governo, não para Pessoal.",
+     "say": "Dois: o i ene esse esse patronal vai para Governo, não para Pessoal.",
+     "start": 2186,
+     "end": 2293,
+     "thinkEnd": null
+    },
+    {
+     "id": "g19",
+     "kind": "line",
+     "cap": "Três: aluguel vai para Terceiros. Não é insumo.",
+     "say": "Três: aluguel vai para Terceiros. Não é insumo.",
+     "start": 2302,
+     "end": 2382,
+     "thinkEnd": null
+    },
+    {
+     "id": "q7",
+     "kind": "quiz-q",
+     "cap": "Pause e responda: por que a riqueza do pão é 1.000, e não 1.650?",
+     "say": "Pause e responda: por que a riqueza do pão é mil, e não mil seiscentos e cinquenta?",
+     "start": 2400,
+     "end": 2531,
+     "thinkEnd": 2651
+    },
+    {
+     "id": "r7",
+     "kind": "quiz-a",
+     "cap": "Porque só conta o que cada etapa agregou: 250 + 150 + 600 = 1.000.",
+     "say": "Porque só conta o que cada etapa agregou: duzentos e cinquenta, mais cento e cinquenta, mais seiscentos.",
+     "start": 2651,
+     "end": 2830,
+     "thinkEnd": null
+    }
+   ]
+  },
+  {
+   "id": "s8",
+   "num": 8,
+   "title": "Notas Explicativas",
+   "block": "notas",
+   "audio": "audio/s8.wav",
+   "durationInFrames": 3086,
+   "lines": [
+    {
+     "id": "h1",
+     "kind": "line",
+     "cap": "Último bloco: Notas Explicativas. Ritmo rápido.",
+     "say": "Último bloco: Notas Explicativas. Ritmo rápido.",
+     "start": 15,
+     "end": 110,
+     "thinkEnd": null
+    },
+    {
+     "id": "h2",
+     "kind": "line",
+     "cap": "Primeiro: sinal e ruído.",
+     "say": "Primeiro: sinal e ruído.",
+     "start": 122,
+     "end": 167,
+     "thinkEnd": null
+    },
+    {
+     "id": "h3",
+     "kind": "line",
+     "cap": "Nota boa entrega sinal: o que importa para decidir.",
+     "say": "Nota boa entrega sinal: o que importa para decidir.",
+     "start": 174,
+     "end": 267,
+     "thinkEnd": null
+    },
+    {
+     "id": "h4",
+     "kind": "line",
+     "cap": "Informação demais, sem relevância, vira ruído.",
+     "say": "Informação demais, sem relevância, vira ruído.",
+     "start": 274,
+     "end": 359,
+     "thinkEnd": null
+    },
+    {
+     "id": "h5",
+     "kind": "line",
+     "cap": "O filtro é a materialidade. Se omitir pode mudar a decisão do usuário, é material.",
+     "say": "O filtro é a materialidade. Se omitir pode mudar a decisão do usuário, é material.",
+     "start": 365,
+     "end": 520,
+     "thinkEnd": null
+    },
+    {
+     "id": "h6",
+     "kind": "line",
+     "cap": "Isso está na OCPC 07 e no CPC 51.",
+     "say": "Isso está na ó cê pê cê zero sete e no CPC cinquenta e um.",
+     "start": 527,
+     "end": 639,
+     "thinkEnd": null
+    },
+    {
+     "id": "h7",
+     "kind": "line",
+     "cap": "Segundo: a ordem das notas. CPC 26, item 114.",
+     "say": "Segundo: a ordem das notas. CPC vinte e seis, item cento e catorze.",
+     "start": 652,
+     "end": 795,
+     "thinkEnd": null
+    },
+    {
+     "id": "h8",
+     "kind": "line",
+     "cap": "Declaração de conformidade. Resumo das políticas contábeis. Detalhe dos itens, na ordem das demonstrações. E outras divulgações.",
+     "say": "Declaração de conformidade. Resumo das políticas contábeis. Detalhe dos itens, na ordem das demonstrações. E outras divulgações.",
+     "start": 802,
+     "end": 1044,
+     "thinkEnd": null
+    },
+    {
+     "id": "h9",
+     "kind": "line",
+     "cap": "Terceiro: CPC 23, em três caixas.",
+     "say": "Terceiro: CPC vinte e três, em três caixas.",
+     "start": 1057,
+     "end": 1143,
+     "thinkEnd": null
+    },
+    {
+     "id": "h10",
+     "kind": "line",
+     "cap": "Mudou a política contábil? Retrospectiva. Como se sempre tivesse sido assim.",
+     "say": "Mudou a política contábil? Retrospectiva. Como se sempre tivesse sido assim.",
+     "start": 1150,
+     "end": 1293,
+     "thinkEnd": null
+    },
+    {
+     "id": "h11",
+     "kind": "line",
+     "cap": "Mudou a estimativa? Prospectiva. Daqui para a frente.",
+     "say": "Mudou a estimativa? Prospectiva. Daqui para a frente.",
+     "start": 1300,
+     "end": 1399,
+     "thinkEnd": null
+    },
+    {
+     "id": "h12",
+     "kind": "line",
+     "cap": "Achou um erro? Reapresentação retrospectiva. Corrige o passado.",
+     "say": "Achou um erro? Reapresentação retrospectiva. Corrige o passado.",
+     "start": 1406,
+     "end": 1519,
+     "thinkEnd": null
+    },
+    {
+     "id": "h13",
+     "kind": "line",
+     "cap": "Quarto: CPC 24, eventos subsequentes.",
+     "say": "Quarto: CPC vinte e quatro, eventos subsequentes.",
+     "start": 1533,
+     "end": 1633,
+     "thinkEnd": null
+    },
+    {
+     "id": "h14",
+     "kind": "line",
+     "cap": "A janela vai da data do balanço até a autorização para emissão.",
+     "say": "A janela vai da data do balanço até a autorização para emissão.",
+     "start": 1640,
+     "end": 1749,
+     "thinkEnd": null
+    },
+    {
+     "id": "h15",
+     "kind": "line",
+     "cap": "A condição já existia na data do balanço? Ajusta.",
+     "say": "A condição já existia na data do balanço? Ajusta.",
+     "start": 1756,
+     "end": 1846,
+     "thinkEnd": null
+    },
+    {
+     "id": "h16",
+     "kind": "line",
+     "cap": "A condição é nova, surgiu depois? Não ajusta. Só divulga.",
+     "say": "A condição é nova, surgiu depois? Não ajusta. Só divulga.",
+     "start": 1853,
+     "end": 1959,
+     "thinkEnd": null
+    },
+    {
+     "id": "h17",
+     "kind": "line",
+     "cap": "Quinto: CPC 21. É a base do ITR, trimestral e condensado.",
+     "say": "Quinto: CPC 21. É a base do ITR, trimestral e condensado.",
+     "start": 1972,
+     "end": 2105,
+     "thinkEnd": null
+    },
+    {
+     "id": "h18",
+     "kind": "line",
+     "cap": "Sexto: CPC 05, partes relacionadas.",
+     "say": "Sexto: CPC zero cinco, partes relacionadas.",
+     "start": 2119,
+     "end": 2209,
+     "thinkEnd": null
+    },
+    {
+     "id": "h19",
+     "kind": "line",
+     "cap": "É parte relacionada: controladora, controlada, coligada e o pessoal-chave da administração.",
+     "say": "É parte relacionada: controladora, controlada, coligada e o pessoal-chave da administração.",
+     "start": 2216,
+     "end": 2384,
+     "thinkEnd": null
+    },
+    {
+     "id": "h20",
+     "kind": "line",
+     "cap": "Não é, só por isso: um grande cliente ou fornecedor, um banco que financia, ou duas empresas com um administrador em comum.",
+     "say": "Não é, só por isso: um grande cliente ou fornecedor, um banco que financia, ou duas empresas com um administrador em comum.",
+     "start": 2391,
+     "end": 2605,
+     "thinkEnd": null
+    },
+    {
+     "id": "q8",
+     "kind": "quiz-q",
+     "cap": "Pause e responda: achei um erro do ano passado. Corrijo de forma prospectiva?",
+     "say": "Pause e responda: achei um erro do ano passado. Corrijo de forma prospectiva?",
+     "start": 2623,
+     "end": 2756,
+     "thinkEnd": 2876
+    },
+    {
+     "id": "r8",
+     "kind": "quiz-a",
+     "cap": "Não. Para erro, a reapresentação é retrospectiva. Prospectiva é para mudança de estimativa.",
+     "say": "Não. Para erro, a reapresentação é retrospectiva. Prospectiva é para mudança de estimativa.",
+     "start": 2876,
+     "end": 3045,
+     "thinkEnd": null
+    }
+   ]
+  },
+  {
+   "id": "s9",
+   "num": 9,
+   "title": "Fechamento",
+   "block": "fim",
+   "audio": "audio/s9.wav",
+   "durationInFrames": 1064,
+   "lines": [
+    {
+     "id": "i1",
+     "kind": "line",
+     "cap": "Para fechar, o checklist das 8 pegadinhas.",
+     "say": "Para fechar, o checklist das oito pegadinhas.",
+     "start": 15,
+     "end": 98,
+     "thinkEnd": null
+    },
+    {
+     "id": "i2",
+     "kind": "line",
+     "cap": "Banco para aplicação equivalente de caixa: não é fluxo.",
+     "say": "Banco para aplicação equivalente de caixa: não é fluxo.",
+     "start": 107,
+     "end": 209,
+     "thinkEnd": null
+    },
+    {
+     "id": "i3",
+     "kind": "line",
+     "cap": "Fundos de ações e cambiais: fora do caixa.",
+     "say": "Fundos de ações e cambiais: fora do caixa.",
+     "start": 215,
+     "end": 291,
+     "thinkEnd": null
+    },
+    {
+     "id": "i4",
+     "kind": "line",
+     "cap": "Parcela de empréstimo: juros de um lado, principal do outro.",
+     "say": "Parcela de empréstimo: juros de um lado, principal do outro.",
+     "start": 297,
+     "end": 405,
+     "thinkEnd": null
+    },
+    {
+     "id": "i5",
+     "kind": "line",
+     "cap": "Compra financiada: só a parte paga em dinheiro.",
+     "say": "Compra financiada: só a parte paga em dinheiro.",
+     "start": 411,
+     "end": 499,
+     "thinkEnd": null
+    },
+    {
+     "id": "i6",
+     "kind": "line",
+     "cap": "Aumento de ativo tira caixa. Aumento de passivo põe.",
+     "say": "Aumento de ativo tira caixa. Aumento de passivo põe.",
+     "start": 504,
+     "end": 610,
+     "thinkEnd": null
+    },
+    {
+     "id": "i7",
+     "kind": "line",
+     "cap": "Na DVA, receita e insumos vão pelo valor bruto.",
+     "say": "Na dê vê á, receita e insumos vão pelo valor bruto.",
+     "start": 615,
+     "end": 706,
+     "thinkEnd": null
+    },
+    {
+     "id": "i8",
+     "kind": "line",
+     "cap": "O INSS patronal é Governo. O aluguel é Terceiros.",
+     "say": "O i ene esse esse patronal é Governo. O aluguel é Terceiros.",
+     "start": 711,
+     "end": 819,
+     "thinkEnd": null
+    },
+    {
+     "id": "i9",
+     "kind": "line",
+     "cap": "Evento subsequente: condição que já existia, ajusta.",
+     "say": "Evento subsequente: condição que já existia, ajusta.",
+     "start": 824,
+     "end": 925,
+     "thinkEnd": null
+    },
+    {
+     "id": "i10",
+     "kind": "line",
+     "cap": "Respira fundo. Você estudou. Boa prova!",
+     "say": "Respira fundo. Você estudou. Boa prova!",
+     "start": 938,
+     "end": 1012,
+     "thinkEnd": null
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,25 @@
+{
+  "name": "videoprova",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Vídeo-aula de revisão: Tópicos em Contabilidade II (DFC, DVA, Notas Explicativas)",
+  "scripts": {
+    "audio": "python3 tts/gerar_audio.py",
+    "audio:edge": "python3 tts/gerar_audio.py --engine edge",
+    "studio": "remotion studio",
+    "render": "remotion render VideoRevisao out/video-revisao.mp4"
+  },
+  "dependencies": {
+    "@fontsource/inter": "5.3.0",
+    "@fontsource/jetbrains-mono": "5.3.0",
+    "@remotion/cli": "4.0.546",
+    "lucide-react": "1.78.0",
+    "react": "19.3.1",
+    "react-dom": "19.3.1",
+    "remotion": "4.0.546"
+  },
+  "devDependencies": {
+    "@types/react": "19.3.0",
+    "typescript": "5.9.3"
+  }
+}
